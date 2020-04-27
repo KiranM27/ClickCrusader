@@ -112,7 +112,7 @@ def pop(self):
                       size = (400, 200), auto_dismiss = True, content = Label(text = content))
         popup.open()
 ```
-> Here we define a method called *pop ( )* which creates a popup thats pops up on the screen once the 30 s are over. *self.comments* is a pre-defined list of tuples of an adjevtive and a comment corresponf to the *self.fscore* which is the final score omce the 30 s are done. 
+> Here we define a method called *pop ( )* which creates a popup thats pops up on the screen once the 30 s are over. *self.comments* is a pre-defined list of tuples of an adjevtive and a comment corresponf to the *self.fscore* which is the final score once the 30 s are done. 
 
 The above is more or less an overview of the methods and classes used in this game
 
