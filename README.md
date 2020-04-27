@@ -9,6 +9,8 @@
 
 The goal of the game, irrespective of the game mode, is simple enough. Click on as many boxes as possible within the time limit of 30 s. Each box is worth one point. Your current score can be seen at the top right corner of the screen and the higher your score at the end of the game, the cooler the comment that you will receive.  Have Fun !!
 
+YouTube Link: https://youtu.be/2laYIAan71w
+
 ## Dependencies
 
 Apart from the built in python functions, the game only makes use of three other modules namely:

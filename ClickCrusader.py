@@ -1,3 +1,5 @@
+# YouTube Link: https://youtu.be/2laYIAan71w
+
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.floatlayout import FloatLayout
@@ -37,7 +39,7 @@ class w1(Screen):
         l1.add_widget(b1)
         l1.add_widget(b2)
         l1.add_widget(b3)
-    
+        
     def change_to_gs(self, value):
         self.manager.current = "ds"
         
@@ -132,6 +134,7 @@ class w2(Screen):
         popup = Popup(title = str(t), size_hint = (None, None),
                       size = (400, 200), auto_dismiss = True, content = Label(text = content))
         popup.open()
+
         
         
     def change1(self, *args):
@@ -152,6 +155,7 @@ class w2(Screen):
             self.manager.current = "ui"
             self.count = 0
             self.pop()
+
         
         self.l2.remove_widget(self.b1)
         val1 = random.random() * 0.9
@@ -178,6 +182,7 @@ class w2(Screen):
             self.manager.current = "ui"
             self.count = 0
             self.pop()
+
         
         self.l2.remove_widget(self.b2)
         val1 = random.random() * 0.9
@@ -204,6 +209,7 @@ class w2(Screen):
             self.manager.current = "ui"
             self.count = 0
             self.pop()
+
         
         self.l2.remove_widget(self.b3)
         val1 = random.random() * 0.9
@@ -230,6 +236,7 @@ class w2(Screen):
             self.manager.current = "ui"
             self.count = 0
             self.pop()
+
         
         self.l2.remove_widget(self.b4)
         val1 = random.random() * 0.9
@@ -256,6 +263,7 @@ class w2(Screen):
             self.manager.current = "ui"
             self.count = 0
             self.pop()
+
 
         self.l2.remove_widget(self.b5)
         val1 = random.random() * 0.9
@@ -347,6 +355,7 @@ class w5(Screen):
         popup = Popup(title = str(t), size_hint = (None, None),
                       size = (400, 200), auto_dismiss = True, content = Label(text = content))
         popup.open()
+
         
         
     def change1(self, *args):
@@ -531,6 +540,7 @@ class w6(Screen):
         popup = Popup(title = str(t), size_hint = (None, None),
                       size = (400, 200), auto_dismiss = True, content = Label(text = content))
         popup.open()
+
         
         
     def change1(self, *args):
