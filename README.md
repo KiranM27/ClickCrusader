@@ -64,5 +64,7 @@ class w1(Screen):
         self.add_widget(l1)
 ```
 > The first statement creates a class called *w1* which is of the type *Screen*. 
-
 > We then define a method called *quit_app()* which when called causes the game window to close. This function is bound to a button. 
+> In the __init__ ( ) method, takes in an argument called \*\*kwargs which allows us to pass in any number of arguments without explicitly typing out the same 
+> The *super( )* method is used to call the methods of the superclass and to access the superclass constructor
+> 
